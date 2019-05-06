@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".unregistered">
+    tools:context=".unregistered"
+    android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:paddingTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create PIN"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#989898"
+        android:gravity="center_horizontal"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Enter 4 digit numeric PIN"
+        android:inputType="numberPassword"
+        android:id="@+id/pin"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENTER"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/enter"
+        />
+
+</LinearLayout>

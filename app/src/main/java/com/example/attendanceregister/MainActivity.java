@@ -15,12 +15,12 @@ public class MainActivity extends AppCompatActivity {
 
         if(Login==0)
         {
-            startActivity(new Intent(this,unregistered.class).putExtra(Login));
+            startActivity(new Intent(MainActivity.this,unregistered.class));
         }
 
         else
         {
-            startActivity(new Intent(this,registered.class));
+            startActivity(new Intent(MainActivity.this,registered.class));
         }
     }
 }
