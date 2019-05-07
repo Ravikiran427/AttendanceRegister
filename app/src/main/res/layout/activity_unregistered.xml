@@ -23,7 +23,7 @@
         android:layout_height="100dp"
         android:hint="Enter 4 digit numeric PIN"
         android:inputType="numberPassword"
-        android:id="@+id/pin"
+        android:id="@+id/pin1"
         />
 
     <Button
@@ -32,7 +32,7 @@
         android:text="ENTER"
         android:textStyle="bold"
         android:textSize="18sp"
-        android:id="@+id/enter"
+        android:id="@+id/enter1"
         />
 
 </LinearLayout>

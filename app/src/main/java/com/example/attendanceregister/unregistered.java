@@ -20,7 +20,7 @@ public class unregistered extends AppCompatActivity {
         EditText editText = (EditText)findViewById(R.id.pin);
         pin = editText.getText().toString();
 
-        enter = (Button)findViewById(R.id.enter);
+        enter = (Button)findViewById(R.id.enter1);
 
         enter.setOnClickListener(new View.OnClickListener() {
             @Override

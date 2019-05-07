@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Attendance Register</string>
+    <string name="title_activity_subjectlist">subjectlist</string>
 </resources>
